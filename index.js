@@ -1,8 +1,10 @@
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name);
-  var current = katzDeliLine.indexOf(name) + 1;
+var customers = 0;
+
+function takeANumber(katzDeliLine) {
+  katzDeliLine.push(customer);
   
   return "Welcome, " + name + '. ' + "You are number " + current + " in line.";
+  //welcome you are number 7
 }
 
 function nowServing(katzDeliLine) {
@@ -32,3 +34,4 @@ function currentLine(katzDeliLine) {
   
   return finStr;
 }
+
